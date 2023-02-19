@@ -14,6 +14,8 @@ Unreal Engine version: 4.27 or 5.0
 
 
 If you want to load glTF Samples from 'https://github.com/KhronosGroup/glTF-Sample-Models',
+
 Replace models url as below.
+
 https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master + /2.0/BoxAnimated/glTF-Binary/BoxAnimated.glb
 
