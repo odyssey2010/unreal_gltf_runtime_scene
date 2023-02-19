@@ -50,10 +50,10 @@ void UglTFRuntimeComponent::LoadFromUrl(const FString& Url)
 	TMap<FString, FString> Headers;
 	FglTFRuntimeHttpResponse Response;
 
-	Response.BindUFunction(this, FName(TEXT("OnLoadCompleted")));
+	Response.BindUFunction(this, TEXT("OnLoadCompleted"));
 
 	// If you want to load glTF Samples from 'https://github.com/KhronosGroup/glTF-Sample-Models',
-	// Replace models url as below.
+	// Replace model's url as below.
 	// https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master + /2.0/BoxAnimated/glTF-Binary/BoxAnimated.glb
 
 	UglTFRuntimeFunctionLibrary::glTFLoadAssetFromUrl(Url, Headers, Response, LoaderConfig);

@@ -1,7 +1,6 @@
 // Copyright 2023.
 
 #include "MyActor.h"
-#include <cstring>
 
 // Sets default values
 AMyActor::AMyActor()
